@@ -10,7 +10,6 @@ body {
 
 .top {
   background-color: #2b2b2b;
-  color: #ffffff;
   display: flex;
   height: 180px;
   justify-content: flex-end;
@@ -57,7 +56,6 @@ header {
 }
 
 .share {
-  color: #ffffff;
   padding-right: 20px;
 }
 
@@ -68,20 +66,20 @@ header {
   padding-right: 20px;
 }
 
-.fa-circle {
-  color: #ffffff;
-}
-
-span {
+span,
+.shares-title {
   color: #484848;
 }
 
-a {
+a,
+.fa-circle,
+.view-number,
+.share,
+.top {
   color: #ffffff;
 }
 
 .shares-title {
-  color: #484848;
   font-size: 40px;
   font-weight: 400;
   padding-left: 2%;
@@ -112,7 +110,6 @@ a {
 }
 
 .view-number {
-  color: #ffffff;
   display: flex;
   flex-direction: row;
   font-size: 150%;
@@ -124,7 +121,8 @@ a {
 }
 
 h3,
-p {
+p,
+.playlist-name {
   margin-left: 5%;
 }
 
@@ -186,13 +184,6 @@ p {
 }
 
 .playlist-footer,
-.playlist-name,
-.attachments,
-.attachment-number {
-
-}
-
-.playlist-footer,
 .attachments {
   font-size: 75%;
   margin: 4% 0 0 5%;
@@ -200,7 +191,6 @@ p {
 
 .playlist-name {
   font-size: 110%;
-  margin-left: 5%;
   margin-top: 0;
 }
 
