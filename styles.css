@@ -1,17 +1,13 @@
-* {
-  /* margin: 0; */
-}
-
 html {
   margin: 0;
   width: 100vw;
 }
+
 body {
   background-color: #EEEEEE;
   font-family: 'Lato';
-
-
 }
+
 .top {
   background-color: #2b2b2b;
   color: #ffffff;
@@ -42,29 +38,27 @@ header {
   font-family: 'Merriweather';
   justify-content: flex-end;
   margin: 0 3% 0 0;
-
-
 }
 
 .user-admin {
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   margin: 0;
 }
 
 .fas {
+  background: #333333;
+  border-radius: 50%;
   color: black;
   display: flex;
   font-size: 60px;
-  background: #333333;
-  border-radius: 50%;
   padding: 20px;
 }
 
 .share {
-  padding-right: 20px;
   color: #ffffff;
+  padding-right: 20px;
 }
 
 .playlist,
@@ -89,56 +83,49 @@ a {
 .shares-title {
   color: #484848;
   font-size: 40px;
-  padding-left: 2%;
   font-weight: 400;
+  padding-left: 2%;
 }
 
 .card-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: auto;
   grid-gap: 2%;
-
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 0 20px 0 20px;
 }
+
 .cards {
   background-color: #FFFFFF;
-  color: #585858;
   box-shadow: 2px 2px 3px #C8C8C8;
+  color: #585858;
   display: flex;
   flex-direction: column;
   width: 98%;
-
-
 }
 
 .top-banner {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   height: 160px;
-
+  justify-content: flex-start;
 }
 
 .view-number {
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   font-size: 150%;
   font-weight: 300;
+  justify-content: flex-end;
   margin-left: 70%;
-  text-align: center;
   margin-top: 2%;
-}
-
-.middle-section,
-.bottom-section {
+  text-align: center;
 }
 
 h3,
 p {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 
 .recipient-namehere {
@@ -152,13 +139,11 @@ p {
 }
 
 .recipient-link {
-  word-break: break-all;
   background-color: #F0F0F0;
   margin: 0 5% 0 5%;
   padding: 4%;
+  word-break: break-all;
 }
-
-
 
 .card1,
 .card2,
@@ -168,10 +153,10 @@ p {
 .card6,
 .card7,
 .card8 {
-  background-size: 350px;
-  background-position: center;
   background-blend-mode: hue;
   background-color: rgb(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: 350px;
   background-repeat: no-repeat;
 }
 
@@ -220,7 +205,7 @@ p {
 }
 
 .attachment-number {
+  color: #01c3f9;
   font-size: 180%;
   margin: 2% 0 4% 5%;
-  color:#01c3f9;
 }
